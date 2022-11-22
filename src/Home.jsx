@@ -1,4 +1,4 @@
-import ButtonHome from "./ButtonHome";
+import ButtonHome from "./Components/ButtonHome";
 
 function Home() {
     return (
