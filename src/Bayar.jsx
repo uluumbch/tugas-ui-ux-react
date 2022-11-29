@@ -1,6 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import ItemDetail from "./Components/ItemDetail";
 
 function Bayar() {
   const MySwal = withReactContent(Swal);
@@ -22,22 +23,11 @@ function Bayar() {
       </div>
       <div className="h-1/2 p-4 relative bg-white rounded-t-xl ">
         <h3 className="font-semibold">Detail Booking</h3>
-        <div className="flex justify-between my-4">
-          <p>Nama</p>
-          <p>Andrea Jabir</p>
-        </div>
-        <div className="flex justify-between my-4">
-          <p>No. Kursi</p>
-          <p>1</p>
-        </div>
-        <div className="flex justify-between my-4">
-          <p>Waktu Pemesanan</p>
-          <p>09.20 WIB</p>
-        </div>
-        <div className="flex justify-between my-4">
-          <p>Biaya Layanan</p>
-          <p>Rp5.000</p>
-        </div>
+        <ItemDetail nama={"Nama"} item={"Andrea Jabir"} />
+        <ItemDetail nama={"No. Kursi"} item={"1"} />
+        <ItemDetail nama={"Waktu Pemesanan"} item={"09.20 WIB"} />
+        <ItemDetail nama={"Biaya Layanan"} item={"Rp5.000"} />
+        
         <div className="">
           <h3 className="font-semibold">Persayaratan dan Ketentuan</h3>
           <ol className="list-decimal text-red-500 mx-2">

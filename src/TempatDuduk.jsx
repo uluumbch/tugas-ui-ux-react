@@ -84,7 +84,7 @@ function TempatDuduk() {
         </div>
         <Link to="/data-diri">
           <button className="bg-primary text-white py-3 w-full rounded-full">
-            Lanjutkan
+            Lanjutkan Pemesanan
           </button>
         </Link>
       </div>
